@@ -4,41 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>設計思考專案 | 鄭佳珍</title>
-  <link rel="stylesheet" href="style.css" />
-  <style>
-    .image-carousel {
-      display: flex;
-      overflow-x: auto;
-      gap: 16px;
-      padding: 12px 0;
-    }
-    .image-carousel img {
-      max-height: 260px;
-      border-radius: 8px;
-      flex-shrink: 0;
-    }
-  </style>
+  <link rel="stylesheet" href="style-zh.css" />
 </head>
 <body>
   <header class="topbar">
-    <div class="logo"><span class="square"></span><strong>LILY CHENG</strong> / UX Designer</div>
+    <div class="logo"><span class="square"></span><strong>LILY CHENG</strong> / Product Specialist</div>
     <nav class="nav-links">
       <a href="index.html">關於我</a>
       <a href="portfolio.html">作品集</a>
+      <a href="p1-en.html">EN</a>
     </nav>
   </header>
 
-  <main class="resume-section">
-    <div class="resume-header">
-      <h1>設計思考專案｜以人為本的創新思維訓練</h1>
-    </div>
+  <main class="project-page">
+    <h1 class="project-title">設計思考專案 — 以人為本的創新思維訓練</h1>
+      <hr class="divider">
 
-    <div class="resume-subsection">
-      <h2>專案背景</h2>
-      <p>此專案起源於跨部門教育單位的合作需求，目標是協助非設計背景的學員掌握設計思考方法，進行快速問題定義與創新解決方案產出。課程對象包含企業人才、非營利組織人員、教職員及學生。</p>
-    </div>
+    <section class="project-header">
+      <p>各項專案起源於跨部門教育、企業、非營利組織等單位的合作需求，目標是協助非設計背景的學員掌握設計思考方法，進行快速問題定義與創新解決方案產出。課程對象包含企業人才、非營利組織人員、教職員及學生。</p>
+    </section>
 
-    <div class="resume-subsection">
+    <section>
       <h2>我的角色</h2>
       <ul>
         <li>擔任教學設計與引導人</li>
@@ -47,25 +33,36 @@
         <li>設計工作坊流程並帶領原型發想與測試</li>
         <li>提供即時回饋與成果盤點</li>
       </ul>
-    </div>
+    </section>
 
-    <div class="resume-subsection">
+    <section>
       <h2>方法與流程</h2>
-      <p>本專案採用設計思考五步驟（Empathize, Define, Ideate, Prototype, Test）作為主軸，輔以多項實作工具：</p>
-      <ul>
-        <li>顧客旅程地圖、同理心地圖</li>
-        <li>人物誌與需求定義</li>
-        <li>點子擴散與收斂</li>
-        <li>快速紙本原型與使用回饋測試</li>
-      </ul>
-    </div>
+      <div class="ta-cards">
+        <div class="ta-card card-1">
+          <h3><span class="ta-number">01</span> Empathize</h3>
+          <p>同理使用者需求，蒐集資料與痛點</p>
+        </div>
+        <div class="ta-card card-2">
+          <h3><span class="ta-number">02</span> Define</h3>
+          <p>彙整觀察，明確定義核心問題</p>
+        </div>
+        <div class="ta-card card-3">
+          <h3><span class="ta-number">03</span> Ideate</h3>
+          <p>集思廣益產出創意解方</p>
+        </div>
+        <div class="ta-card card-2">
+          <h3><span class="ta-number">04</span> Prototype & Test</h3>
+          <p>快速製作原型並收集回饋</p>
+        </div>
+      </div>
+    </section>
 
-    <div class="resume-subsection">
+    <section>
       <h2>學習與反思</h2>
       <p>本專案讓我深刻體認到「設計思考」不僅是方法工具，更是一種跨部門溝通與共創的橋梁。特別在非設計背景的團隊中，設計思維能有效釐清需求並促進行動共識。</p>
-    </div>
+    </section>
 
-    <div class="resume-subsection">
+    <section>
       <h2>圖片參考</h2>
       <div class="image-carousel">
         <img src="design4.png" alt="工作坊情境一" />
@@ -73,7 +70,7 @@
         <img src="design1.jpg" alt="發想與原型開發" />
         <img src="design3.jpg" alt="學員展示成果" />
       </div>
-    </div>
+    </section>
 
     <div class="back-home">
       <a href="portfolio.html" class="back-button">返回作品集</a>
